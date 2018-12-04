@@ -1,0 +1,39 @@
+defaultTasks 'clean', 'build'
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+    apply plugin: 'org.springframework.boot'
+
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+        options.deprecation = true
+        options.compilerArgs += ['-Xlint:all', '-proc:none']
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    buildDir = "${rootDir}/build/${name}"
+
+    springBoot {
+        mainClassName = 'com.nexio.Application'
+    }
+
+}
+
+//apply from: file("${rootDir}/gradle/check.gradle")
+
+allprojects {
+    apply plugin: 'idea'
+    idea.module.inheritOutputDirs = true
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.10.2'
+
+}

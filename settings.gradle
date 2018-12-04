@@ -1,0 +1,9 @@
+//rootProject.name = 'pf2-lottery'
+include 'pf2-db-migration'
+include 'pf2-commons'
+include 'pf2-customer-web-service'
+include 'pf2-business-web-service'
+include 'pf2-crawler-web-service'
+include 'pf2-schedule-web-service'
+include 'pf2-sample'
+

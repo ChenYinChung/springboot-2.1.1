@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a8d34df-c76c-4812-8a48-ffe5497554b7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/pf2-commons/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-commons/out/" />
+    <ignored path="$PROJECT_DIR$/pf2-customer-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-customer-service/out/" />
+    <ignored path="$PROJECT_DIR$/pf2-db-migration/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-db-migration/out/" />
+    <ignored path="$PROJECT_DIR$/pf2-schedule-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-schedule-service/out/" />
+    <ignored path="$PROJECT_DIR$/pf2-sample/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-sample/out/" />
+    <ignored path="$PROJECT_DIR$/pf2-business-web-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-business-web-service/out/" />
+    <ignored path="$PROJECT_DIR$/pf2-crawler-web-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-crawler-web-service/out/" />
+    <ignored path="$PROJECT_DIR$/pf2-customer-web-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-customer-web-service/out/" />
+    <ignored path="$PROJECT_DIR$/pf2-schedule-web-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pf2-schedule-web-service/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/pf2-db-migration">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/pf2-customer-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/pf2-customer-web-service">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pf2-lottery" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pf2-lottery" type="f1a62948:ProjectNode" />
+                <item name=":pf2-customer-web-service" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pf2-lottery" type="f1a62948:ProjectNode" />
+                <item name=":pf2-customer-web-service" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pf2-sample/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/app.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/project.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/redis.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/service/RedisSessionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$PROJECT_DIR$/../../../sammy/log/</find>
+      <find>CorsConfig</find>
+      <find>:${SpringBbootStarterVersion}</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/pf2-customer-web-service</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gradle/app.gradle" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/WebApplication.java" />
+        <option value="$PROJECT_DIR$/pf2-db-migration/src/main/resources/db/migration/V1.0.0.3__Initial_Quartz.sql" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws/config/BehaviorInterceptor.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws/config/KafkaConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/pf2-schedule-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pf2-schedule-service/src/main/resources/quartz.properties" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/Application.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws/annotation/UserVerify.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws/annotation/ExecutionInterval.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws/config/ExecutionIntervalInterceptor.java" />
+        <option value="$PROJECT_DIR$/pf2-schedule-service/src/main/java/com/nexio/Application.java" />
+        <option value="$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/domain/User.java" />
+        <option value="$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/domain/UserRepository.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/resources/undertow.properties" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pf2-db-migration/src/main/resources/flyway.properties" />
+        <option value="$PROJECT_DIR$/pf2-db-migration/conf/dev/resources/flyway.properties" />
+        <option value="$PROJECT_DIR$/pf2-db-migration/src/main/resources/db/migration/V1.0.0.1__Create_User_Seq.sql" />
+        <option value="$PROJECT_DIR$/pf2-db-migration/src/main/resources/db/migration/V1.0.0.2__Create_User.sql" />
+        <option value="$PROJECT_DIR$/pf2-db-migration/src/main/resources/db/migration/V1.0.0.1__Initial_Quartz.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
+        <option value="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws/model/User.java" />
+        <option value="$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/Application.java" />
+        <option value="$PROJECT_DIR$/pf2-commons/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/pf2-sample/src/test/java/com/nexio/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/pf2-sample/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/domain/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/pf2-schedule-web-service/src/main/java/com/nexio/Application.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/JwtFilter.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/service/RedisSessionService.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/handler/WebsocketHandler.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/redis.yaml" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/Application.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/WebSocketSessionConfig.java" />
+        <option value="$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/gradle/project.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pf2-lottery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pf2-lottery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543902890338" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pf2-schedule-service/src/main/java/com/nexio/sws" />
+      <recent name="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nexio.cws.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pf2-sample/src/main/resources" />
+      <recent name="$PROJECT_DIR$/pf2-customer-service/src/main/java/com/nexio/cws/model" />
+      <recent name="$PROJECT_DIR$/pf2-commons" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pf2-sample" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.pf2-lottery [clean build]">
+    <configuration name="pf2-lottery [clean build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--exclude-task test" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="pf2-lottery:pf2-customer-service [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/pf2-customer-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.nexio.pf2-sample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nexio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nexio" />
+      <option name="MAIN_CLASS_NAME" value="com.nexio.ApplicationTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.nexio.pf2-customer-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nexio.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="com.nexio.pf2-sample.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nexio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nexio.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="com.nexio.pf2-customer-web-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nexio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nexio.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.nexio.pf2-sample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.didispace.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.nexio.pf2-schedule-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sb.ScheduleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.nexio.pf2-customer-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sb.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApplicationTests" />
+        <item itemvalue="Spring Boot.Application (3)" />
+        <item itemvalue="Spring Boot.Application (2)" />
+        <item itemvalue="Gradle.pf2-lottery [clean build]" />
+        <item itemvalue="Gradle.pf2-lottery:pf2-customer-service [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a8d34df-c76c-4812-8a48-ffe5497554b7" name="Default Changelist" comment="" />
+      <created>1543420976797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543420976797</updated>
+      <workItem from="1543420983117" duration="2990000" />
+      <workItem from="1543424097227" duration="7542000" />
+      <workItem from="1543471883348" duration="3514000" />
+      <workItem from="1543477490215" duration="7841000" />
+      <workItem from="1543504232797" duration="3143000" />
+      <workItem from="1543514329576" duration="6531000" />
+      <workItem from="1543559400350" duration="8957000" />
+      <workItem from="1543891415989" duration="6373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ApplicationTests - 2018.11.29 at 23h 28m 22s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.29 at 23h 28m 54s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.30 at 02h 00m 52s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.30 at 02h 10m 32s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.30 at 02h 12m 51s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.30 at 02h 13m 46s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.30 at 02h 15m 24s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.30 at 10h 01m 51s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.30 at 10h 07m 31s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests - 2018.11.30 at 15h 22m 11s.xml">
+      <configuration name="ApplicationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46891000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3" y="23" width="1400" height="877" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2599411" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49426752" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33630574" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32860824" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.1730486" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pf2-commons/src/main/java/com/nexio/cws/config/RedisConfig.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-service/src/main/resources/kafka.properties" />
+    <entry file="file://$PROJECT_DIR$/gradle/db-migration.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-commons/src/main/resources/jdbc.properties" />
+    <entry file="file://$PROJECT_DIR$/pf2-commons/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/undertow.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-db-migration/src/main/resources/db/migration/V1.0.0.2__Create_User.sql" />
+    <entry file="file://$PROJECT_DIR$/pf2-db-migration/src/main/resources/db/migration/V1.0.0.1__Create_User_Seq.sql" />
+    <entry file="file://$PROJECT_DIR$/pf2-db-migration/src/main/resources/flyway.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-db-migration/conf/dev/resources/flyway.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/model/Customer.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/repository/UserRepository.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-commons/src/main/resources/log4j2.xml" />
+    <entry file="file://$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-db-migration/src/main/resources/db/migration/V1.0.0.1__Initial_Quartz.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-schedule-web-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-schedule-web-service/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-schedule-web-service/src/main/resources/quartz.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-schedule-web-service/src/main/java/com/nexio/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-schedule-web-service/src/main/resources/rest.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.10.RELEASE/f6fd4b97e5c2b6cbe4e5ac3d6ebc984cb299a5e0/spring-web-5.0.10.RELEASE-sources.jar!/org/springframework/web/cors/CorsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/annotation/ExecutionInterval.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/annotation/UserVerify.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/CorsConfig.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/JwtFilter.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/ExecutionIntervalInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-sample/src/test/java/com/nexio/ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/RedisWebSocketComponent.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.11.RELEASE/422ca14ce09ce818f81ebd72c4d99a7e0d18c3d8/spring-data-redis-2.0.11.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/WebSocketConfig.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/handler/WebsocketHandler.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/WebSocketSessionConfig.java" />
+    <entry file="file://$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/domain/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-sample/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/BehaviorInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/redis.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/java/com/nexio/cws/service/RedisSessionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-sample/src/main/java/com/nexio/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/app.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-customer-web-service/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pf2-sample/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/project.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean build -x test" />
+    <option value="clean build --exclude-task test" />
+    <option value="clean build -x test --warning-mode all" />
+    <option value="clean build" />
+  </component>
+</project>

@@ -1,0 +1,112 @@
+buildscript {
+    ext {
+        springIOVersion = '1.0.6.RELEASE'
+        springBootVersion = '2.1.1.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+
+
+    dependencies {
+        classpath files("${rootDir}/lib/postgresql-42.2.2.jar")
+        classpath "io.spring.gradle:dependency-management-plugin:${springIOVersion}"
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+    }
+}
+
+
+apply from: file("${rootDir}/gradle/project.gradle")
+
+subprojects {
+    group 'com.nexio'
+    repositories {
+        mavenCentral()
+    }
+}
+
+configure(subprojects.findAll {it.name.endsWith('-db-migration') }) {
+    apply from: file("${rootDir}/gradle/db-migration.gradle")
+}
+
+
+
+project(':pf2-customer-web-service'){
+    dependencies {
+        configurations {
+            // remove default logger
+            all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+            // remove tomcat , replace with undertow
+            all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+        }
+
+        compile project(':pf2-commons')
+        compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1212'
+
+        compile "org.springframework.boot:spring-boot-starter-actuator"
+        compile "org.springframework.boot:spring-boot-starter-web"
+        compile "org.springframework.boot:spring-boot-starter-aop"
+        compile "org.springframework.boot:spring-boot-starter-undertow"
+        compile "org.springframework.boot:spring-boot-starter-data-jpa"
+        compile "org.springframework.boot:spring-boot-starter-data-redis"
+        compile "org.springframework.boot:spring-boot-starter-cache"
+        compile "org.springframework.boot:spring-boot-starter-test"
+        compile "org.springframework.boot:spring-boot-starter-log4j2"
+        compile "org.springframework.boot:spring-boot-starter-data-rest"
+        compile "org.springframework.boot:spring-boot-starter-websocket"
+        testCompile "org.springframework.boot:spring-boot-starter-test"
+
+
+        // JWT
+        compile "io.jsonwebtoken:jjwt:0.9.0"
+
+    }
+}
+
+project(':pf2-schedule-web-service'){
+    dependencies {
+        configurations {
+            // remove default logger
+            all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+            // remove tomcat , replace with undertow
+            all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+        }
+
+        compile project(':pf2-commons')
+        compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1212'
+
+        compile "org.springframework.boot:spring-boot-starter-actuator"
+        compile "org.springframework.boot:spring-boot-starter-aop"
+        compile "org.springframework.boot:spring-boot-starter-undertow"
+        compile "org.springframework.boot:spring-boot-starter-web"
+        compile "org.springframework.boot:spring-boot-starter-quartz"
+        compile "org.springframework.boot:spring-boot-starter-log4j2"
+        compile "org.springframework.boot:spring-boot-starter-data-rest"
+
+    }
+}
+
+project(':pf2-sample'){
+    dependencies {
+        configurations {
+            // remove default logger
+            all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+            // remove tomcat , replace with undertow
+            all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+        }
+
+        compile project(':pf2-commons')
+        compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1212'
+        compile "org.springframework.boot:spring-boot-starter-actuator"
+        compile "org.springframework.boot:spring-boot-starter-web"
+        compile "org.springframework.boot:spring-boot-starter-aop"
+        compile "org.springframework.boot:spring-boot-starter-undertow"
+        compile "org.springframework.boot:spring-boot-starter-data-jpa"
+        compile "org.springframework.boot:spring-boot-starter-data-redis"
+        compile "org.springframework.boot:spring-boot-starter-cache"
+        compile "org.springframework.boot:spring-boot-starter-test"
+        compile "org.springframework.boot:spring-boot-starter-log4j2"
+        compile "org.springframework.boot:spring-boot-starter-data-rest"
+        testCompile "org.springframework.boot:spring-boot-starter-test"
+    }
+}

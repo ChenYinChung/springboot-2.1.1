@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+
+  redis:
+    container_name: sle_redis_cluster
+    image: docker.nexiosoft.com:5000/nogle-redis-cluster
+    restart: always
+    privileged: true
+#    volumes:
+#      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+#      - ./redis:/var/log/redis/
+    ports:
+      - 6379:6379
+      - 6380:6380
+      - 6381:6381
+      - 6382:6382
+      - 6383:6383
+      - 6384:6384
+    environment:
+      - PORT_SEQ=6379 6384
+      - HOSTS_IP=127.0.0.1
+
+  postresql:
+    container_name: sle_db
+    image: docker.nexiosoft.com:5000/nogle-postgresql
+    ports:
+      - 5430:5430
+      - 5432:5432
+    environment:
+      - initdb=true
